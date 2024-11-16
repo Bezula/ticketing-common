@@ -1,6 +1,6 @@
 import { Subjects } from "../subjects";
 
-export type OrderCancelled = {
+export type OrderCancelledEvent = {
   subject: Subjects.OrderCancelled;
   data: {
     id: string;
