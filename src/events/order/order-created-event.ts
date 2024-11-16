@@ -2,7 +2,7 @@ import { Subjects } from "../subjects";
 import { OrderStatus } from "../types/order-status";
 
 export type OrderCreatedEvent = {
-  subjects: Subjects.OrderCreated;
+  subject: Subjects.OrderCreated;
   data: {
     id: string;
     status: OrderStatus;
